@@ -13,7 +13,7 @@
 </form>
 <ul>
 	<li style="position:fixed"><a href="menupage.jsp">Menu&nbsp</a></li>&nbsp&nbsp
-	<li id="rightside" style="float:right"><a class="active"  href="homelogin.jsp">logout</a></li>
+	<li id="rightside" style="float:right"><a class="active"  href="login.jsp">logout</a></li>
 </ul>
 
 </body>

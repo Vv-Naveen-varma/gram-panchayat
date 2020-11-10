@@ -30,7 +30,7 @@
 </tr>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/registration","root","naveen44");
+Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/registration","root","root");
 Statement st=con.createStatement();
 
 String user=session.getAttribute("userid").toString();
@@ -58,7 +58,7 @@ if( ifbill.equals(rs.getString("bill")) ){
 </div>
 <ul>
 	<li style="position:fixed"><a href="history.jsp">Back&nbsp</a></li>&nbsp&nbsp
-	<li id="rightside" style="float:right"><a class="active"  href="homelogin.jsp">logout</a></li>
+	<li id="rightside" style="float:right"><a class="active"  href="login.jsp">logout</a></li>
 </ul>
 
 </body>

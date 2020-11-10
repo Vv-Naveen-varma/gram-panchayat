@@ -15,7 +15,7 @@
 	<a href="waterbill.jsp"><input type="button" class="button" value="Water Bill"></a><br>
 	<a href="electricbill.jsp"><input type="button" class="button" value="Electricity Bill"></a>
 	<a href="history.jsp"><input type="button" class="button" value="History"></a><br>
-	<a href="homelogin.jsp"><input type="button" class="button" value="Logout"></a>
+	<a href="login.jsp"><input type="button" class="button" value="Logout"></a>
 </center>
 </body>
 </html>

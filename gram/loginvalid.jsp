@@ -8,7 +8,7 @@
   String userid=request.getParameter("Adhaar");
   String password=request.getParameter("password");
   Class.forName("com.mysql.jdbc.Driver");
-  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/registration","root","naveen44");
+  Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/registration","root","root");
 
   Statement st=con.createStatement();
   
@@ -34,7 +34,7 @@
 %>
     <script>
       alert("Invalid Credentials Please Re-Enter");
-      window.location.href="homelogin.jsp";
+      window.location.href="login.jsp";
     </script>
 <%
     /*response.sendRedirect("homelogin.html");*/

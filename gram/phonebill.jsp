@@ -23,7 +23,7 @@
 	<li><a href="history.jsp">History</a></li>
 	<li><a href="electricbill.jsp">Electricity Bill</a></li>
 	<li><a href="waterbill.jsp">Water Bill</a></li>
-	<li style="float:right"><a class="active" href="homelogin.jsp">logout</a></li>
+	<li style="float:right"><a class="active" href="login.jsp">logout</a></li>
 	</ul>
 </body>
 <style type="text/css">

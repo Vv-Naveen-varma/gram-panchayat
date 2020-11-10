@@ -24,7 +24,7 @@
 	<li><a href="history.jsp">History&nbsp</a></li>&nbsp&nbsp
 	<li><a href="phonebill.jsp">Phone Bill&nbsp</a>&nbsp</li>
 	<li><a href="waterbill.jsp">Water Bill</a></li>
-	<li style="float:right"><a class="active" href="homelogin.jsp">logout</a></li>
+	<li style="float:right"><a class="active" href="login.jsp">logout</a></li>
 	</ul>
 </body>
 <style type="text/css">

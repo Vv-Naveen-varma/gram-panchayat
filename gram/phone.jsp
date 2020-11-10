@@ -10,7 +10,7 @@
  		String userid=session.getAttribute("userid").toString();
 
  		Class.forName("com.mysql.jdbc.Driver");
- 		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/registration","root","naveen44");
+ 		Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/registration","root","root");
  
 	 	Statement st=conn.createStatement();
 	 	int i=st.executeUpdate("insert into phonebill values('"+consumerid+"','"+phone+"','"+amount+"','"+"phonebill"+"',NOW(),'"+userid+"')");
